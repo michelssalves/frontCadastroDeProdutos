@@ -45,7 +45,7 @@
                                     <th>Descrição</th>
                                     <th>Marca</th>
                                     <th>Modelo</th>
-                                    <th>Ref</th>
+                                    <th>Referência</th>
                                     <th>Min</th>
                                     <th>Max</th>
                                     <th>Saldo</th>
@@ -64,7 +64,7 @@
                                     <td>{{produto.maximo}}</td>
                                     <td>{{produto.saldo}}</td>
                                     <td>{{produto.endereco}}</td>
-                                    <td>{{produto.valor}}</td>
+                                    <td>{{produto.valor || duasCasasDecimais}}</td>
                                 </tr>
                             </tbody>
                         </table>
